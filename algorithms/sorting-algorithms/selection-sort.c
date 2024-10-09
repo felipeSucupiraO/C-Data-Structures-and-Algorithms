@@ -11,7 +11,7 @@ void selectionSort(int *vetor, int tamanhoVetor) {
     int i, j, min;
     for (i = 0; i < tamanhoVetor; i++) {
         min = i;
-        for (j = 0; j < tamanhoVetor; j++) {
+        for (j = i; j < tamanhoVetor; j++) {
             if (vetor[j] < vetor[min]) {
                 min = j;
             }

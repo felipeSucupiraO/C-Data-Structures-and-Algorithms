@@ -17,11 +17,5 @@ void insertionSort(int *vetor, int tamanhoVetor) {
 }
 
 int main() {
-    int vetor[10] = {9, 8, 7, 6, 5, 4, 3, 2, 1};
-    insertionSort(vetor, 10);
-    for (int i = 0; i < 10; i++) {
-        printf("%d ", vetor[i]);
-    }
-    printf("\n");
     return 0;
 }
